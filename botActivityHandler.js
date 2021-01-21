@@ -100,7 +100,7 @@ function CopyToClipBoard(context, action) {
     const attachment = { contentType: heroCard.contentType, content: heroCard.content, preview: heroCard };
 
     
-        /* Get the text field */
+        /* Added section to copy message to clipbaord */
         var copyText = action.messagePayload.body.content;
         console.log(copyText);
         try {
